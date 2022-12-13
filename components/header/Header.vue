@@ -1,10 +1,13 @@
 <template>
     <header class="header">
-        <h1>Hello</h1>
+        <div class="header__wrapper">
+            <AdditionalInfo />
+        </div>
     </header>
 </template>
 
 <script setup>
+import AdditionalInfo from "./sections/AdditionalInfo.vue";
 import { storeToRefs } from "pinia";
 
 </script>
